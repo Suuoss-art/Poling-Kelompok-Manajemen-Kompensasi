@@ -7,11 +7,20 @@
     "start": "python3 -m http.server 8080",
     "build": "echo 'No build process needed for static site'"
   },
-  "keywords": ["group-formation", "3d", "threejs", "education", "polling"],
+  "keywords": [
+    "group-formation",
+    "3d",
+    "threejs",
+    "education",
+    "polling"
+  ],
   "author": "Management Compensation Class",
   "license": "MIT",
   "description": "Website untuk pembagian kelompok otomatis mata kuliah Manajemen Kompensasi dengan efek 3D menggunakan Three.js",
   "dependencies": {
     "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
   }
 }
